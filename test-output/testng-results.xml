@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19929" started-at="2017-08-27T05:58:58Z" finished-at="2017-08-27T05:59:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19929" started-at="2017-08-27T05:58:58Z" finished-at="2017-08-27T05:59:17Z">
+      <class name="com.automation.tests.TestFunctionality">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.tests.TestFunctionality@42d80b78]" name="setUp" is-config="true" duration-ms="7220" started-at="2017-08-27T00:58:58Z" finished-at="2017-08-27T00:59:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test_Home_Page()[pri:0, instance:com.automation.tests.TestFunctionality@42d80b78]" name="test_Home_Page" duration-ms="3109" started-at="2017-08-27T00:59:05Z" finished-at="2017-08-27T00:59:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Home_Page -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.automation.tests.TestFunctionality@42d80b78]" name="cleanUp" is-config="true" duration-ms="179" started-at="2017-08-27T00:59:08Z" finished-at="2017-08-27T00:59:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.tests.TestFunctionality@42d80b78]" name="setUp" is-config="true" duration-ms="6207" started-at="2017-08-27T00:59:08Z" finished-at="2017-08-27T00:59:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test_Home_Navigation()[pri:1, instance:com.automation.tests.TestFunctionality@42d80b78]" name="test_Home_Navigation" duration-ms="3060" started-at="2017-08-27T00:59:14Z" finished-at="2017-08-27T00:59:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Home_Navigation -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.automation.tests.TestFunctionality@42d80b78]" name="cleanUp" is-config="true" duration-ms="113" started-at="2017-08-27T00:59:17Z" finished-at="2017-08-27T00:59:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.automation.tests.TestFunctionality -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
