@@ -3,6 +3,11 @@ package com.automation.withoutpagefactory.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+/**
+ * Home Page
+ * @author Poornima
+ *
+ */
 public class HomePage {
 	WebDriver driver;
 	AboutPage objAbout;

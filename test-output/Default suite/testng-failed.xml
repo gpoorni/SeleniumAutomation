@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.automation.tests.TestFunctionality">
+      <class name="com.automation.tests.HomePageToRequestInfoPageTest">
         <methods>
-          <include name="test_Home_Navigation"/>
           <include name="setUp"/>
+          <include name="test_Home_Navigation"/>
         </methods>
-      </class> <!-- com.automation.tests.TestFunctionality -->
+      </class> <!-- com.automation.tests.HomePageToRequestInfoPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
