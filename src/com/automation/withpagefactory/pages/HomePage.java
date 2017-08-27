@@ -5,6 +5,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+/**
+ * Home Page(With PageFactory)
+ * @author Poornima
+ *
+ */
 public class HomePage {
 	WebDriver driver;
 	@FindBy(className = "hero__title")

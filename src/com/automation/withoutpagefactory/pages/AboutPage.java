@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 /**
- * About Page
+ * About Page(Without PageFactory)
  * @author Poornima
  *
  */

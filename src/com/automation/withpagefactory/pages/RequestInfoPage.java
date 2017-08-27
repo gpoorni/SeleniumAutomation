@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 /**
- * RequestInfo Page
+ * RequestInfo Page(With PageFactory)
  * @author Poornima
  *
  */
