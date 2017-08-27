@@ -13,14 +13,18 @@ import org.openqa.selenium.support.PageFactory;
 public class RequestInfoPage {
 	WebDriver driver;
 	@FindBy (xpath= "/html/body/header/div[1]/div[2]/button")
-	WebElement titleText;
+	WebElement requestInfoPageTitle;
+	@FindBy (xpath= "/html/body/header/div[1]/nav/a[3]")
+	WebElement btnCLick;
 	
 	public RequestInfoPage(WebDriver driver){
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
-	public String getRequestInfoTitle(){
-		return titleText.getText();
+	public String getRequestInfoPageTitle(){
+		return requestInfoPageTitle.getText();
 	}
-	
+	public void clickIndustries(){
+		btnCLick.click();
+	}
 }

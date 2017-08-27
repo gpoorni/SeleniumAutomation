@@ -6,7 +6,8 @@
       <class name="com.automation.tests.HomePageToRequestInfoPageTest">
         <methods>
           <include name="setUp"/>
-          <include name="test_Home_Navigation"/>
+          <include name="cleanUp"/>
+          <include name="doNavigationFromHome_verifyTitle_success"/>
         </methods>
       </class> <!-- com.automation.tests.HomePageToRequestInfoPageTest -->
     </classes>

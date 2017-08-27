@@ -13,7 +13,7 @@ import org.openqa.selenium.support.PageFactory;
 public class HomePage {
 	WebDriver driver;
 	@FindBy(className = "hero__title")
-	WebElement titleText;
+	WebElement homePageTitle;
 	@FindBy(xpath="/html/body/header/div[1]/div[2]/button")
 	WebElement btnClick;
 	
@@ -22,7 +22,7 @@ public class HomePage {
 		PageFactory.initElements(driver, this);
 	}
 	public String getHomePageTitle(){
-		return titleText.getText();
+		return homePageTitle.getText();
 	}
 
 	public void clickRequestInfo() {

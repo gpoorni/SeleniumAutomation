@@ -15,7 +15,7 @@ import com.automation.withoutpagefactory.pages.HomePage;
  * @author Poornima
  *
  */
-public class HomePageToAboutPageTest {
+public class TestHomePageNavigationWithoutPageFactory {
 	public WebDriver driver;
 	AboutPage objAbout;
 	HomePage objHome;
@@ -28,23 +28,23 @@ public class HomePageToAboutPageTest {
 		objHome = new HomePage(driver);
 	}
 
+	/*
+	 * Tests navigation from Home Page to Contact Page.
+	 */
 	@Test(priority = 0)
 	public void invokeHomePage_verifyTitle_success() throws InterruptedException {
 		objHome = new HomePage(driver);
 		String homePageTitle = objHome.getHomePageTitle();
 		Thread.sleep(3000);
 		Assert.assertTrue(homePageTitle.toLowerCase().contains("uptake is the actionable insights platform"));
-	}
-
-	@Test(priority = 1)
-	public void homePageToAboutPage_verifyTitle_success() throws InterruptedException{
+		
 		objHome.clickAbout();
 		objAbout = new AboutPage(driver);
 		Thread.sleep(3000);
 		String aboutPageTitle = objAbout.getAboutPageTitle();
 		Assert.assertTrue(aboutPageTitle.toLowerCase().contains("uptake is transforming "));
 	}
-	
+
 	@AfterMethod
 	public void cleanUp(){
 		driver.close();
